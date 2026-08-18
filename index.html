@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stowarzyszenie Inicjatywa Zmian w Pszczynie</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333;
+    background: #fff;
+  }
+
+  /* Breadcrumb top */
+  .top-nav {
+    background: #f2f2f2;
+    padding: 5px 20px;
+    border-bottom: 1px solid #ddd;
+    font-size: 11px;
+    color: #666;
+  }
+  .top-nav a { color: #0066cc; text-decoration: none; }
+
+  /* Main wrapper */
+  .wrapper {
+    display: flex;
+    max-width: 1250px;
+    margin: 10px auto;
+    padding: 0 10px;
+    gap: 15px;
+  }
+
+  /* Left sidebar - chaotic link dump */
+  .sidebar-left {
+    width: 220px;
+    flex-shrink: 0;
+  }
+  .sidebar-left h3 {
+    font-size: 13px;
+    font-weight: bold;
+    color: #000;
+    margin: 15px 0 5px 0;
+  }
+  .sidebar-left ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .sidebar-left li {
+    margin-bottom: 3px;
+  }
+  .sidebar-left a {
+    color: #0066cc;
+    text-decoration: none;
+    font-size: 11px;
+  }
+  .sidebar-left a:hover { text-decoration: underline; }
+
+  /* Center main content */
+  .main-content {
+    flex-grow: 1;
+  }
+
+  .article {
+    margin-bottom: 35px;
+  }
+
+  .article-title {
+    color: #0066cc;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 8px 0;
+  }
+
+  .article-date {
+    font-size: 11px;
+    color: #555;
+    margin-bottom: 8px;
+  }
+
+  .article-text {
+    line-height: 1.5;
+    font-size: 12px;
+    margin-bottom: 12px;
+    color: #222;
+  }
+
+  .img-container {
+    text-align: center;
+    margin: 15px 0;
+  }
+  .img-placeholder {
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 4px;
+    background: #fafafa;
+  }
+  .img-placeholder img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .file-download {
+    border: 1px solid #e0e0e0;
+    background: #f9f9f9;
+    padding: 8px;
+    margin: 6px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 11px;
+  }
+  .file-download a {
+    color: #0066cc;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  /* Right sidebar - random widgets */
+  .sidebar-right {
+    width: 200px;
+    flex-shrink: 0;
+  }
+
+  .widget-box {
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background: #fff;
+  }
+  .widget-title {
+    font-weight: bold;
+    font-size: 13px;
+    margin: 0 0 8px 0;
+    color: #333;
+  }
+
+  .widget-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .widget-links li { margin-bottom: 4px; }
+  .widget-links a { color: #0066cc; text-decoration: none; font-size: 11px; }
+
+  .notice-box {
+    background: #f5f5f5;
+    border-left: 3px solid #0066cc;
+    padding: 6px;
+    font-size: 10px;
+    color: #666;
+  }
+</style>
+</head>
+<body>
+
+<div class="top-nav">
+  Jesteś tutaj: <a href="#">Strona główna</a> &raquo; Aktualności
+</div>
+
+<div class="wrapper">
+
+  <!-- LEWE MENU (Typowy przeładowanyCMS) -->
+  <aside class="sidebar-left">
+    <h3>Stowarzyszenie</h3>
+    <ul>
+      <li><a href="#">Strona główna</a></li>
+      <li><a href="#">O nas</a></li>
+      <li><a href="#">Statut stowarzyszenia</a></li>
+      <li><a href="#">Zarząd i Struktura</a></li>
+      <li><a href="#">Sekretariat / Kontakt</a></li>
+      <li><a href="#">Harmonogram spotkań</a></li>
+      <li><a href="#">Dokumenty do pobrania</a></li>
+      <li><a href="#">RODO i Polityka Prywatności</a></li>
+      <li><a href="#">Deklaracje członkowskie</a></li>
+    </ul>
+
+    <h3>Działalność</h3>
+    <ul>
+      <li><a href="#">Inicjatywy młodzieżowe</a></li>
+      <li><a href="#">Projekty unijne</a></li>
+      <li><a href="#">Wolontariat</a></li>
+      <li><a href="#">Współpraca z uczelniami</a></li>
+      <li><a href="#">Edukacja obywatelska</a></li>
+      <li><a href="#">Wydarzenia lokalne</a></li>
+      <li><a href="#">Debaty i konsultacje</a></li>
+      <li><a href="#">Osiągnięcia i wyróżnienia</a></li>
+    </ul>
+
+    <h3>Organizacja</h3>
+    <ul>
+      <li><a href="#">Rada programowa</a></li>
+      <li><a href="#">Partnerzy strategiczni</a></li>
+      <li><a href="#">Biuletyn Informacji Publicznej</a></li>
+      <li><a href="#">Formularze zgłoszeniowe</a></li>
+      <li><a href="#">E-wnioski</a></li>
+      <li><a href="#">English version</a></li>
+    </ul>
+  </aside>
+
+  <!-- ŚRODEK (Główna treść) -->
+  <main class="main-content">
+
+    <article class="article">
+      <h1 class="article-title">Rozpoczęcie oficjalnej działalności Stowarzyszenia "Inicjatywa Zmian" w Pszczynie</h1>
+      <div class="article-date">26 lipca 2026 r.</div>
+      <div class="article-text">
+        Z przyjemnością informujemy, że w Pszczynie oficjalnie rozpoczęło działalność Stowarzyszenie „Inicjatywa Zmian”. Celem organizacji jest aktywizacja młodzieży, rozwój inicjatyw społecznych oraz budowanie platformy porozumienia pomiędzy uczniami, kadry pedagogiczną a samorządem terytorialnym.
+      </div>
+      <div class="article-text">
+        W ramach struktur powołano nowe biuro oraz zarząd na czele z Oliwierem Maślorzem, który odpowiadać będzie za koordynację prac wykonawczych oraz reprezentację organizacji na zewnątrz.
+      </div>
+
+      <div class="img-container">
+        <div class="img-placeholder">
+          <!-- Miejsce na zdjęcie -->
+          <div style="width: 420px; height: 260px; background: #e2e8f0; border: 1px solid #aaa; display: flex; align-items: center; justify-content: center; color: #666; font-size: 11px;">
+            [Oficjalne Zdjęcie Zarządu / Dokumenty Rejestracyjne]
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="article">
+      <h2 class="article-title">Dokumentacja i uchwały obowiązujące w roku 2026/2027</h2>
+      
+      <div class="file-download">
+        <span style="font-size:16px;">⬇</span>
+        <div>
+          <a href="https://www.facebook.com/61584361291574/photos/122119028217145376/" target="_blank">Pobierz deklarację programową i cele statutowe (PDF)</a>
+        </div>
+      </div>
+
+      <div class="file-download">
+        <span style="font-size:16px;">⬇</span>
+        <div>
+          <a href="https://www.facebook.com/inicjatywazmian/posts/biuro-stowarzyszenia-inicjatywa-zmian-oficjalnie-otwarte-to-dla-nas-ogromny-kami/122104523355405349/" target="_blank">Komunikat dotyczący otwarcia biura regionalnego</a>
+        </div>
+      </div>
+
+      <div class="notice-box" style="margin-top:10px;">
+        UWAGA! Godziny dyżurów konsultacyjnych dla młodzieży zostaną podane w osobnym komunikacie.
+      </div>
+    </article>
+
+  </main>
+
+  <!-- PRAWE MENU (Wydzielone kafelki z duperelem) -->
+  <aside class="sidebar-right">
+
+    <div class="widget-box">
+      <ul class="widget-links">
+        <li><a href="#">Aktualny harmonogram</a></li>
+        <li><a href="#">Rekrutacja członków</a></li>
+        <li><a href="#">Skład Zarządu</a></li>
+        <li><a href="#">Oficjalny Facebook</a></li>
+        <li><a href="#">Kontakt dla mediów</a></li>
+        <li><a href="#">Biuletyn e-mail</a></li>
+      </ul>
+    </div>
+
+    <div class="widget-box">
+      <div class="widget-title">Instytucje partnerskie</div>
+      <div style="font-size:11px; color:#666;">
+        Lista szkół i jednostek samorządowych współpracujących w powiecie pszczyńskim.
+      </div>
+    </div>
+
+    <div class="widget-box">
+      <div class="widget-title">Ostatnie migawki</div>
+      <div style="width: 100%; height: 100px; background: #ddd; border: 1px solid #ccc; display: flex; align-items: center; justify-content: center; font-size: 10px; color: #555;">
+        [Miniatura zdjęć]
+      </div>
+    </div>
+
+    <div class="widget-box">
+      <div class="widget-title">Licznik odwiedzin</div>
+      <div class="notice-box">
+        Odwiedziło nas <b>412</b> gości.
+      </div>
+    </div>
+
+  </aside>
+
+</div>
+
+</body>
+</html>
